@@ -1,3 +1,5 @@
+package com.Project1;
+
 public class testContinue {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {

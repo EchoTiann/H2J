@@ -1,3 +1,5 @@
+package com.Project1;
+
 public class Standings {
 
     /**
@@ -35,7 +37,7 @@ public class Standings {
 
     @Override
     public String toString() {
-        return "Standings{" +
+        return "com.Project1.Standings{" +
                 "击杀=" + kill +
                 ", 死亡=" + die +
                 ", 助攻=" + assist +

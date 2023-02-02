@@ -1,3 +1,5 @@
+package com.Project1;
+
 public class Hero1 {
     /**
      * 姓名
@@ -24,7 +26,7 @@ public class Hero1 {
 
     @Override
     public String toString() {
-        return "Hero1{" +
+        return "com.Project1.Hero1{" +
                 "姓名='" + name + '\'' +
                 ", 血量=" + hp +
                 ", 护甲=" + armor +
