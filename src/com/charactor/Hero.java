@@ -65,8 +65,6 @@ public class Hero {
         System.out.println(temmo.heroHp);
 
         Hero.battleWin();
-
-
     }
     /*float getHp() {
         return heroHp;

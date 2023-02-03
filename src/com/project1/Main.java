@@ -33,23 +33,5 @@ public class Main {
         Item sword = new Item();
         sword.itemName = "长剑";
         sword.itemPrice = 350;
-
-        for(var hero : Hero.HeroType.values()) {
-//            switch (hero) {
-//                case TANK:
-//                    System.out.println(hero.getName());
-//                    break;
-//                case ASSASSIN:
-//                    System.out.println(hero.getName());
-//                    break;
-//                case ASSIST:
-//                    System.out.println(hero.getName());
-//                    break;
-//                case FARMING:
-//                    System.out.println(hero.getName());
-//                    break;
-//            }
-            System.out.println(hero.getName());
-        }
     }
 }
