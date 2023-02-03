@@ -1,6 +1,27 @@
 package com.charactor;
 
 public class Hero {
+
+    public enum HeroType{
+        TANK ("坦克"),
+        WIZARD ("法师"),
+        ASSASSIN ("刺客"),
+        ASSIST ("辅助"),
+        WARRIOR ("近战"),
+        RANGED ("远程"),
+        PUSH ("推进"),
+        FARMING ("打野");
+
+        private final String name;
+        HeroType(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+    }
     public String heroName; //姓名
     public float heroHp; //血量
     public float heroArmor; //护甲
@@ -43,6 +64,8 @@ public class Hero {
         System.out.println(temmo.heroHp);
 
         Hero.battleWin();
+
+
     }
     /*float getHp() {
         return heroHp;
