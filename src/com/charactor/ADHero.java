@@ -1,6 +1,6 @@
 package com.charactor;
 
-public class ADHero extends Hero {
+public class ADHero extends Hero implements AD {
     public void attack() {
         System.out.println(heroName + " 进行了一次攻击 ，但是不确定打中谁了");
     }
@@ -33,4 +33,8 @@ public class ADHero extends Hero {
         }
     }
 
+    @Override
+    public void physicAttack() {
+        System.out.println("进行了物理攻击");
+    }
 }

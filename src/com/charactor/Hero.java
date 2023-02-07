@@ -53,6 +53,15 @@ public class Hero {
     public static void main(String[] args) {
         Hero twilight = new Hero();
         Hero temmo = new Hero();
+        ADHero adHero = new ADHero();
+        APHero apHero = new APHero();
+
+        twilight = adHero;
+        temmo = apHero;
+
+        System.out.println(twilight instanceof ADHero);
+        System.out.println(temmo instanceof  APHero);
+        System.out.println(twilight instanceof Hero);
 
         twilight.setAll("暮光星灵", 1000, 100, 350);
         temmo.setAll("提莫", 800, 50, 400);
@@ -66,6 +75,8 @@ public class Hero {
 
         Hero.battleWin();
     }
+
+
     /*float getHp() {
         return heroHp;
     }

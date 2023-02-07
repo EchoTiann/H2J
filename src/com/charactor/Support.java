@@ -5,9 +5,10 @@ package com.charactor;
 heal()
 heal(Hero h) //为指定的英雄加血
 heal(Hero h, int hp) //为指定的英雄加了hp的血*/
-public class Support extends Hero {
+public class Support extends Hero implements Healer {
+    @Override
     public void heal() {
-        System.out.println("对自己进行治疗");
+        System.out.println("进行了治疗术");
     }
 
     public void heal(Hero h) {
