@@ -1,7 +1,7 @@
 package com.project1;
 
-import com.charactor.Hero;
-import com.property.Item;
+import com.project1.charactor.Hero;
+import com.project1.property.Item;
 
 public class Main {
     public static void main(String[] args) {
